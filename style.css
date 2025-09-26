@@ -60,6 +60,10 @@ ul {
     margin: 0 auto;             
     text-align: left;          
 }
+.questions-list li::marker {
+    font-weight:bold;
+    font-size: 20px;
+}
 .link {
     color: orange;
     transition: color 0.2s;
